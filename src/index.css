@@ -1,0 +1,109 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full screen container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+
+/* Container for coupon content */
+.coupon-container {
+  width: 100%;
+  max-width: 600px; /* Increased max-width for larger desktop view */
+  background-color: white;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+.heading {
+  font-size: 2rem; /* Increased font size */
+  font-weight: bold;
+  color: #4A4A4A;
+  margin-bottom: 20px;
+}
+
+/* Coupon info */
+.coupon-info {
+  padding: 20px;
+  background-color: #e6f4e6;
+  color: #2c6b2f;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Coupon code */
+.coupon-code {
+  font-weight: bold;
+}
+
+/* Message */
+.message {
+  color: #6B6B6B;
+  margin-top: 20px;
+}
+
+/* Button for claiming coupon */
+.claim-button {
+  margin-top: 20px;
+  padding: 12px 24px; /* Increased padding for a bigger button */
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.claim-button:hover {
+  background-color: #2563eb;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .coupon-container {
+      padding: 24px;
+  }
+
+  .heading {
+      font-size: 1.75rem;
+  }
+
+  .coupon-info {
+      padding: 16px;
+  }
+
+  .claim-button {
+      padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .coupon-container {
+      padding: 16px;
+  }
+
+  .heading {
+      font-size: 1.5rem;
+  }
+
+  .coupon-info {
+      padding: 12px;
+  }
+
+  .claim-button {
+      padding: 8px 16px;
+  }
+}
