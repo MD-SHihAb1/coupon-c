@@ -43,8 +43,9 @@
 <hr><p>Install Project and Run Localy</p><h5>Steps</h5><ul>
 <li>git clone https://github.com/MD-SHihAb1/coupon-c</li>
 </ul><ul>
-<li>cd client-repo</li>
+<li>cd coupon-c</li>
 </ul><ul>
 <li>npm install</li>
+  <li>npm run dev</li>
 </ul><h2>Project Status</h2>
 <hr><p>Completed</p>
